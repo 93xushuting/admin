@@ -1,0 +1,145 @@
+@import '../../assets/style/color.less';
+.user-resetpwd-page{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  a{
+    text-decoration: none;
+  }
+  p{
+    margin: 0;
+  }
+  .resetpwd-header{
+    line-height: 64px;
+    background-color: #fff;
+    padding: 0 33px;
+    margin-bottom: 36px;
+    img{
+      height: 30px;
+      vertical-align: middle;
+    }
+  }
+  .logo{
+    color: @blue;
+    font-size: 30px;
+    vertical-align: top;
+  }
+  .resetpwd-step-main{
+    flex: auto;
+  }
+  .resetpwd-step-contianer{
+    box-sizing: border-box;
+    width: 1000px;
+    height: 680px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-top: 48px;
+  }
+  .steps-contianer{
+    width: 660px;
+    margin: 0 auto 64px;
+    .el-step__icon{
+      width: 40px;
+      height: 40px;
+    }
+    .el-step__line{
+      top: 19px;
+    }
+    .el-step__head.is-process,
+    .el-step__head.is-success{
+      color: @blue;
+      border-color: @blue;
+    }
+    .el-step__title.is-process,
+    .el-step__title.is-success{
+      color: @black2;
+      font-weight: normal;
+    }
+  }
+  .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
+    display: none;
+  }
+  .el-form-container{
+    width: 440px;
+    margin: 0 auto;
+    .el-form-item__label,
+    .el-form-item__content,
+    .el-input__inner{
+      line-height: 36px;
+    }
+    .el-input__inner{
+      height: 36px;
+    }
+  }
+  .code-contianer{
+    display: flex;
+    justify-content: space-between;
+  }
+  .input-code{
+    flex-basis: 68%;
+  }
+  .getcode-btn,
+  .getsmscode-btn{
+    margin-left: 8px;
+  }
+  .getcode-btn{
+    width: 106px;
+    box-sizing: border-box;
+    border: 1px solid #DCDFE6;
+    border-radius: 4px;
+    height: 36px;
+    cursor: pointer;
+  }
+  .getsmscode-btn{
+    .el-button{
+      padding: 10px 17px;
+    }
+  }
+  .last-form-item{
+    .el-form-item__content{
+      margin-left: 0 !important;
+    }
+    .el-button{
+      display: block;
+      width: 100%;
+    }
+  }
+  .back-route{
+    text-align: center;
+    a{
+      color: @blue;
+      letter-spacing: 2px;
+    }
+  }
+  .resetpwd-success{
+    text-align: center;
+    p:first-of-type{
+      font-size: 20px;
+      color: #333333;
+      font-weight: 700;
+    }
+    p:last-of-type{
+      color: #69707F;
+      padding-bottom: 40px;
+    }
+    .el-button{
+      display: block;
+      width: 100%;
+      background-color: @blue;
+      border-color: @blue;
+    }
+  }
+  .footer{
+    margin-bottom: 32px;
+    text-align: center;
+    color: rgba(0,0,0,0.45);
+    line-height: 20px;
+  }
+  .el-step__line{
+    background: none; 
+  }
+  .el-step.is-horizontal .el-step__line{
+    height: 0px;
+    border: 1px dashed #C0C4CC;
+  }
+}

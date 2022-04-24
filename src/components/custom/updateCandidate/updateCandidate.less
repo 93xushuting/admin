@@ -1,0 +1,253 @@
+@import '../../../assets/style/color.less';
+
+.candidate-wrapper{
+  max-width: 1200px;
+  padding: 20px 0;
+  background-color: #fff;
+  margin-bottom: 100px;
+  .el-form-item__label{
+    padding: 0 10px 0 0;
+    color: @black2;
+  }
+  .el-form-item__content,
+  .el-form-item__label,
+  .el-input__inner,
+  .el-input__icon,
+  .el-cascader{
+    line-height: 36px;
+  }
+  .el-cascader{
+    .el-input__icon{
+      color: @black2;
+      font-weight: 600;
+    }
+  }
+  .el-form-item__content > .el-select,
+  .el-form-item__content > .el-input,
+  .el-form-item__content > .el-cascader,
+  .el-form-item__content > .el-textarea {
+    width: 440px;
+  }
+  .el-input__inner{
+    height: 36px;
+  }
+  .el-input-group__prepend{
+    width: 120px;
+  }
+  .form-group_title{
+    margin-left: 20px;
+    font-size: 16px;
+    color: @black2;
+    line-height: 24px;
+    padding-left: 14px;
+    position: relative;
+    margin-bottom: 20px;
+    &::before{
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 4px;
+      height: 18px;
+      background: @blue;
+      border-radius: 2px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .zp-btn-primary{
+      float: right;
+    }
+    .iconfont{
+      margin-right: 6px;
+      position: relative;
+      top: 1px;
+    }
+  }
+  .form-item-avatar + .el-form-item{
+    width: 100%;
+  }
+  .avatar-wrappper{
+    height: 36px;
+    width: 440px;
+    img{
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+    }
+  }
+  .avatar-wrappper + .el-form-item__error{
+    padding-top: 18px;
+  }
+  .avatar-contanier{
+    position: absolute;
+    width: 440px;
+    top: -16px
+  }
+  .user-identity {
+    width: 440px;
+    .el-input-group{
+      vertical-align: inherit;
+    }
+  }
+  .upload-container{
+    display: inline-block;
+    padding: 0 0 0 20px;
+    .el-upload{
+      text-align: left;
+    }
+    .message{
+      font-size: 12px;
+      color: #69707F;
+      line-height: 38px;
+    }
+  }
+  .gender-wrapper{
+    .el-form-item__content{
+      width: 440px;
+    }
+  }
+  .address-detail-wrapper{
+    display: inline-block;
+    width: 560px;
+    padding-left: 16px;
+  }
+
+
+  .el-input__count{
+    float: inherit;
+    position: absolute !important;
+  }
+  // 工作经历
+  .work-experience-wrapper{
+    .el-form-item__label{
+      width: 110px !important;
+    }
+  }
+  .work-experienc-item{
+    padding: 20px 20px 20px 0;
+    background: #F7F8FA;
+    border-radius: 4px;
+  }
+  .work-experienc-item_title{
+    padding: 0 0 20px 20px;
+    font-size: 16px;
+    color: @black2;
+    font-weight: 700;
+    .el-button{
+      float: right;
+      color: #F73E3E;
+      position: relative;
+      top: -8px;
+    }
+  }
+  .endTime-wrapper{
+    .el-input{
+      width: 382px;
+    }
+  }
+  .workDesc-wrapper{
+    .el-form-item__content{
+      width: 1000px;
+    }
+  }
+  // 教育经历
+  .profession-wrapper{
+    .el-input{
+      width: 1000px;
+    }
+  }
+  .candidate-wrapper-footer{
+    height: 64px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 -1px 0 0 rgba(38,51,79,0.10);
+    line-height: 64px;
+    position: fixed;
+    bottom: 0;
+    left: 188px;
+    right: 12px;
+  }
+  // 其他信息
+  .hobby-wrapper,
+  .selfEvaluation-wrapper{
+    .el-form-item{
+      width: 100%;
+    }
+    .el-form-item__content{
+      width: calc(100% - 130px);
+    }
+  }
+  .hobby-container{
+    .txt{
+      font-size: 12px;
+      color: #69707F;
+    }
+    .hobby-tag-list{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -5px;
+    }
+    .hobby-tag-list-item{
+      line-height: 32px;
+      border: 1px solid rgba(38,51,79,0.10);
+      border-radius: 16px;
+      padding: 0 10px;
+      font-size: 12px;
+      color: @black;
+      margin: 0 5px;
+      .iconfont,
+      .el-icon-plus{
+        font-size: 12px;
+        color: @black;
+      }
+    }
+    .hobby-tag-list-btn{
+      border-style: dashed;
+      cursor: pointer;
+    }
+    .hobby-tag-list-input{
+      width: 76px;
+      .el-input{
+        line-height: 34px;
+      } 
+      .el-input__inner{
+        line-height: 34px;
+        height: 34px;
+        border-radius: 16px;
+        border-color: #DCDFE6;
+      }
+    }
+  }
+  .pics-wrapper,
+  .selfEvaluation-wrapper{
+    display: block;
+  }
+  .photosLife-title{
+    font-size: 12px;
+    color: #69707F;
+  }
+  // 新增面试邀约样式
+  .interview-wrapper {
+    .interview-form-item {
+      width: 800px;
+    }
+    .sms-template {
+      /deep/ .el-card__body {
+        padding: 10px 0 10px 16px;
+      }
+      .container {
+        width: 331px;
+        background: #f4f4f4;
+        border-radius: 5px;
+        padding: 13px 0 19px 12px;
+        color: #26334f;
+        p {
+          line-height: initial;
+          margin: 0;
+        }
+      }
+    }
+    .cue-color {
+      color: #409eff;
+    }
+  }
+}

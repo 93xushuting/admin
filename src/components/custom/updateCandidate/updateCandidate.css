@@ -1,0 +1,226 @@
+.candidate-wrapper {
+  max-width: 1200px;
+  padding: 20px 0;
+  background-color: #fff;
+  margin-bottom: 100px;
+}
+.candidate-wrapper .el-form-item__label {
+  padding: 0 10px 0 0;
+  color: #26334F;
+}
+.candidate-wrapper .el-form-item__content,
+.candidate-wrapper .el-form-item__label,
+.candidate-wrapper .el-input__inner,
+.candidate-wrapper .el-input__icon,
+.candidate-wrapper .el-cascader {
+  line-height: 36px;
+}
+.candidate-wrapper .el-cascader .el-input__icon {
+  color: #26334F;
+  font-weight: 600;
+}
+.candidate-wrapper .el-form-item__content > .el-select,
+.candidate-wrapper .el-form-item__content > .el-input,
+.candidate-wrapper .el-form-item__content > .el-cascader,
+.candidate-wrapper .el-form-item__content > .el-textarea {
+  width: 440px;
+}
+.candidate-wrapper .el-input__inner {
+  height: 36px;
+}
+.candidate-wrapper .el-input-group__prepend {
+  width: 120px;
+}
+.candidate-wrapper .form-group_title {
+  margin-left: 20px;
+  font-size: 16px;
+  color: #26334F;
+  line-height: 24px;
+  padding-left: 14px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.candidate-wrapper .form-group_title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 18px;
+  background: #4a84ff;
+  border-radius: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.candidate-wrapper .form-group_title .zp-btn-primary {
+  float: right;
+}
+.candidate-wrapper .form-group_title .iconfont {
+  margin-right: 6px;
+  position: relative;
+  top: 1px;
+}
+.candidate-wrapper .form-item-avatar + .el-form-item {
+  width: 100%;
+}
+.candidate-wrapper .avatar-wrappper {
+  height: 36px;
+  width: 440px;
+}
+.candidate-wrapper .avatar-wrappper img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.candidate-wrapper .avatar-wrappper + .el-form-item__error {
+  padding-top: 18px;
+}
+.candidate-wrapper .avatar-contanier {
+  position: absolute;
+  width: 440px;
+  top: -16px;
+}
+.candidate-wrapper .user-identity {
+  width: 440px;
+}
+.candidate-wrapper .user-identity .el-input-group {
+  vertical-align: inherit;
+}
+.candidate-wrapper .upload-container {
+  display: inline-block;
+  padding: 0 0 0 20px;
+}
+.candidate-wrapper .upload-container .el-upload {
+  text-align: left;
+}
+.candidate-wrapper .upload-container .message {
+  font-size: 12px;
+  color: #69707F;
+  line-height: 38px;
+}
+.candidate-wrapper .gender-wrapper .el-form-item__content {
+  width: 440px;
+}
+.candidate-wrapper .address-detail-wrapper {
+  display: inline-block;
+  width: 560px;
+  padding-left: 16px;
+}
+.candidate-wrapper .el-input__count {
+  float: inherit;
+  position: absolute !important;
+}
+.candidate-wrapper .work-experience-wrapper .el-form-item__label {
+  width: 110px !important;
+}
+.candidate-wrapper .work-experienc-item {
+  padding: 20px 20px 20px 0;
+  background: #F7F8FA;
+  border-radius: 4px;
+}
+.candidate-wrapper .work-experienc-item_title {
+  padding: 0 0 20px 20px;
+  font-size: 16px;
+  color: #26334F;
+  font-weight: 700;
+}
+.candidate-wrapper .work-experienc-item_title .el-button {
+  float: right;
+  color: #F73E3E;
+  position: relative;
+  top: -8px;
+}
+.candidate-wrapper .endTime-wrapper .el-input {
+  width: 382px;
+}
+.candidate-wrapper .workDesc-wrapper .el-form-item__content {
+  width: 1000px;
+}
+.candidate-wrapper .profession-wrapper .el-input {
+  width: 1000px;
+}
+.candidate-wrapper .candidate-wrapper-footer {
+  height: 64px;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0 -1px 0 0 rgba(38, 51, 79, 0.1);
+  line-height: 64px;
+  position: fixed;
+  bottom: 0;
+  left: 188px;
+  right: 12px;
+}
+.candidate-wrapper .hobby-wrapper .el-form-item,
+.candidate-wrapper .selfEvaluation-wrapper .el-form-item {
+  width: 100%;
+}
+.candidate-wrapper .hobby-wrapper .el-form-item__content,
+.candidate-wrapper .selfEvaluation-wrapper .el-form-item__content {
+  width: calc(100% - 130px);
+}
+.candidate-wrapper .hobby-container .txt {
+  font-size: 12px;
+  color: #69707F;
+}
+.candidate-wrapper .hobby-container .hobby-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+}
+.candidate-wrapper .hobby-container .hobby-tag-list-item {
+  line-height: 32px;
+  border: 1px solid rgba(38, 51, 79, 0.1);
+  border-radius: 16px;
+  padding: 0 10px;
+  font-size: 12px;
+  color: #2e384d;
+  margin: 0 5px;
+}
+.candidate-wrapper .hobby-container .hobby-tag-list-item .iconfont,
+.candidate-wrapper .hobby-container .hobby-tag-list-item .el-icon-plus {
+  font-size: 12px;
+  color: #2e384d;
+}
+.candidate-wrapper .hobby-container .hobby-tag-list-btn {
+  border-style: dashed;
+  cursor: pointer;
+}
+.candidate-wrapper .hobby-container .hobby-tag-list-input {
+  width: 76px;
+}
+.candidate-wrapper .hobby-container .hobby-tag-list-input .el-input {
+  line-height: 34px;
+}
+.candidate-wrapper .hobby-container .hobby-tag-list-input .el-input__inner {
+  line-height: 34px;
+  height: 34px;
+  border-radius: 16px;
+  border-color: #DCDFE6;
+}
+.candidate-wrapper .pics-wrapper,
+.candidate-wrapper .selfEvaluation-wrapper {
+  display: block;
+}
+.candidate-wrapper .photosLife-title {
+  font-size: 12px;
+  color: #69707F;
+}
+.candidate-wrapper .interview-wrapper .interview-form-item {
+  width: 800px;
+}
+.candidate-wrapper .interview-wrapper .sms-template /deep/ .el-card__body {
+  padding: 10px 0 10px 16px;
+}
+.candidate-wrapper .interview-wrapper .sms-template .container {
+  width: 331px;
+  background: #f4f4f4;
+  border-radius: 5px;
+  padding: 13px 0 19px 12px;
+  color: #26334f;
+}
+.candidate-wrapper .interview-wrapper .sms-template .container p {
+  line-height: initial;
+  margin: 0;
+}
+.candidate-wrapper .interview-wrapper .cue-color {
+  color: #409eff;
+}
